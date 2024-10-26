@@ -54,7 +54,7 @@ export default function Login() {
           {error && <p className="text-red-500 mt-2">{error}</p>}
 
           <div className="flex flex-col items-center justify-between gap-2 mt-6">
-            <button type="submit" className="px-[23px] py-[6px] w-full h-[60px] bg-[#3375BB] text-[#FFFFFF] font-semibold rounded-[15px]">
+            <button type="submit" className="px-[23px] py-[4px] w-full h-[60px] bg-[#3375BB] text-[#FFFFFF] font-semibold rounded-[15px]">
               Login
             </button>
           </div>

@@ -10,7 +10,7 @@ export default function Header() {
         src="https://i.imgur.com/2HH57hV.png" // Replace with the path to your image
         width={5000}
         height={5000}
-        className="w-[300px] h-[200px]"
+        className="w-[300px] h-[70px]"
         alt="sdsmmd"
       />
     </div>
