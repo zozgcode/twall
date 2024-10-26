@@ -102,7 +102,7 @@ export default function Dashboard() {
       {!loading && showMsg && <p className="text-[#811c1c] text-center text-sm p-4 pt-4 pb-0">Service is down, Please try again later...</p>}{' '}
       <div className="flex items-center justify-center gap-10 p-4 mb-5">
         <Link href="/dashboard/send-crypto" className="flex flex-col items-center justify-center gap-2">
-          <button className="text-2xl p-2 flex items-center justify-center bg-[#2A2A2A] shadow-sm text-[#ab9ff2] w-[60px] h-[60px] rounded-full">
+          <button className="text-2xl p-2 flex items-center justify-center bg-[#2A2A2A] shadow-sm text-[#3375BB] w-[60px] h-[60px] rounded-full">
             <svg fill="none" viewBox="0 0 24 24" width="24px" height="24px" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="">
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M21 3 10 14M21 3l-7 20-4-9M21 3 1 10l9 4" />
             </svg>
@@ -110,7 +110,7 @@ export default function Dashboard() {
           <span className="text-white text-base">Send</span>
         </Link>
         <Link href="/dashboard/receive" className="flex flex-col items-center justify-center gap-2">
-          <button className="text-2xl p-2 flex items-center justify-center bg-[#2A2A2A] shadow-sm text-[#ab9ff2] w-[60px] h-[60px] rounded-full">
+          <button className="text-2xl p-2 flex items-center justify-center bg-[#2A2A2A] shadow-sm text-[#3375BB] w-[60px] h-[60px] rounded-full">
             <svg fill="none" viewBox="0 0 24 24" width="24px" height="24px" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="_1xhfa5af _1qwevyc107 _1qwevyc11f _1qwevyc2w3">
               <path
                 fill="currentColor"
@@ -133,7 +133,7 @@ export default function Dashboard() {
           <span className="text-white text-base">Receive</span>
         </Link>
         <Link href="/dashboard/transactions" className="flex flex-col items-center justify-center gap-2">
-          <button className="text-2xl p-2 flex items-center justify-center bg-[#2A2A2A] shadow-sm text-[#ab9ff2] w-[60px] h-[60px] rounded-full">
+          <button className="text-2xl p-2 flex items-center justify-center bg-[#2A2A2A] shadow-sm text-[#3375BB] w-[60px] h-[60px] rounded-full">
             <IoReaderOutline />
           </button>
           <span className="text-white text-base">History</span>

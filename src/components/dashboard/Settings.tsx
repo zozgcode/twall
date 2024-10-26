@@ -36,7 +36,7 @@ export default function Settings() {
           <IoIosArrowBack />
           <span className="font-semibold">Settings</span>
         </Link>
-        <button onClick={handleLogout} className="p-3 py-2 rounded-lg border-none outline-none font-medium border bg-[#ab9ff2] text-[#3c3b42] text-sm">
+        <button onClick={handleLogout} className="p-3 py-2 rounded-lg border-none outline-none font-medium border bg-[#3375BB] text-[#3c3b42] text-sm">
           Sign out
         </button>
       </div>
@@ -45,7 +45,7 @@ export default function Settings() {
           <div className="w-full rounded-[30px] flex bg-[#2A2A2A] border-[#2A2A2A] mb-1 shadow-sm justify-between items-center pr-5 p-4">
             <span className="text-[#c0c0c0] font-normal">Backup Email</span>
             <span className="text-[#c0c0c0] font-medium flex items-center gap-1">
-              <span className="bg-[#ab9ff2]/30 text-[#c0c0c0] text-xs p-2 py-1 rounded-lg flex items-center gap-1">
+              <span className="bg-[#3375BB]/30 text-[#c0c0c0] text-xs p-2 py-1 rounded-lg flex items-center gap-1">
                 Verified <GoCheckCircleFill />
               </span>
               <span>{user.holder.email}</span>
