@@ -36,7 +36,7 @@ export default function Settings() {
           <IoIosArrowBack />
           <span className="font-semibold">Settings</span>
         </Link>
-        <button onClick={handleLogout} className="p-3 py-2 rounded-lg border-none outline-none font-medium border bg-[#3375BB] text-[#3c3b42] text-sm">
+        <button onClick={handleLogout} className="p-3 py-2 rounded-lg border-none outline-none font-medium border bg-[#3375BB] text-[#ffffff] text-sm">
           Sign out
         </button>
       </div>
