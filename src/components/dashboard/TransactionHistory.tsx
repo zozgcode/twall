@@ -60,8 +60,9 @@ export default function TransactionHistory() {
               </div>
             </div>
             <div className="text-right">
-              <p className="text-lg text-white">
-                {transaction.quantity.toFixed(6)} {transaction.description === 'Transfer' ? 'BNB' : ''}
+              <p className="text-lg flex items-center gap-1 text-white">
+                {transaction.quantity.toFixed(6)} <span className='text-base'>{transaction.assets}</span>
+                {/* {transaction.quantity.toFixed(6)} {transaction.description === 'Transfer' ? 'BTC' : ''} */}
               </p>
               <p className="text-sm text-[#c0c0c0]">≈ {formatCurrency(transaction.amount_in_usd)}</p>
             </div>

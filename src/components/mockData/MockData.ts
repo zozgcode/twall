@@ -160,6 +160,16 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
+        transaction_id: 'TXN000',
+        date: 'October 26, 2024',
+        description: 'Transfer',
+        walletAddress: '1A1zP1eP...z8AEuR',
+        status: 'Success',
+        quantity: -1.49,
+        amount_in_usd: -100000.0,
+        assets: 'BTC'
+      },
+      {
         transaction_id: 'TXN001',
         date: 'August 1, 2024',
         description: 'Bonus Deposit',
